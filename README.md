@@ -16,12 +16,19 @@ Git clone https://github.com/svetylka/Git_Merg_Branch.git
 - Mobile testing
 
 Git branch
+
 Git branch Postman
+
 Git branch Jmeter
+
 Git branch CheckLists
+
 Git branch BagReports
+
 Git branch SQL
+
 Git branch Charles
+
 Git branch Mobile_testing
 
 2. Запушить все ветки на внешний репозиторий
@@ -31,7 +38,9 @@ git push origin Postman Jmeter CheckLists BagReports SQL Charles Mobile_testing
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 
 git checkout BagReports
+
 cat >> BugReports.txt
+
 ID: VKs-1111
 Author: Aleksa
 Assignment: Aleksa
@@ -46,23 +55,28 @@ Attachments: Screenshot-001.png , Skreencast-001.mp4
 git add . && git commit -m "add BagReports"
 
 4. Запушить структуру багрепорта на внешний репозиторий
+
 git push --set-upstream origin BagReports
 
 5. Вмержить ветку Bag Reports в Main
 
 git checkout main
+
 git marge BagReports -m "merge BugReports"
 6. Запушить main на внешний репозиторий.
 git push
 
 7. В ветке CheckLists набросать структуру чек листа.
 git checkout checklists
+
 cat >> checklist.txt
+
 1. Проверить запуск приложения на Preprod
 2. Установить приложения из тестового репозитория 
 3. Удалить приложение
 4. Удалить приложение из внутреннего тестового маркет плейса
 5. Удалить приложение из маркет плейса
+
 git add . && git commit -m "add checklist"
 
 8. Запушить структуру на внешний репозиторий
