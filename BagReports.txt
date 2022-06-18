@@ -1,0 +1,11 @@
+ID: VKs-1111
+Author: Aleksa
+Assignment: Aleksa
+Priority: Very High
+Title: [Ошибка] Preprod. Кнопка регистрации не октивна на странице регистрации 
+Environment: Preprod. Google Chrome version 110
+Preconditions: Открыть страницу https://xyz.com , перейти в раздел регистрации
+STR: Заполнить Иванов Иван Иванович, дата рождения 10.02.1990г. и нажать кнопку зарегистрироваться
+ER: Регистрация успешно выполнена и на почту пришло письмо об успешной регистрации 
+AR: Кнопка регистрации не активна после заполнения всех необходимых полей регистрации 
+Attachments: Screenshot-001.png , Skreencast-001.mp4
