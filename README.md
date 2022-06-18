@@ -4,6 +4,7 @@ GitHub. HW_2
 
 0. Создать репозиторий на GitHub и выгрузить на локальный GitHub
 Git_Merg_Branch
+
 Git clone https://github.com/svetylka/Git_Merg_Branch.git
 1. На локальном репозитории сделать ветки для:
 - Postman
